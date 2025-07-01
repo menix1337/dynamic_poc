@@ -1,0 +1,49 @@
+{
+  "name": "portaldynamicpoc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "homepage": "https://github.com/menix1337/dynamic_poc#readme",
+  "bugs": {
+    "url": "https://github.com/menix1337/dynamic_poc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menix1337/dynamic_poc.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@dynamic-labs/ethereum": "^4.20.11",
+    "@dynamic-labs/sdk-react-core": "^4.20.11",
+    "@dynamic-labs/solana": "^4.20.11",
+    "@t3-oss/env-nextjs": "^0.13.4",
+    "@tailwindcss/postcss": "^4.1.6",
+    "autoprefixer": "^10.4.21",
+    "next": "^14.2.5",
+    "postcss": "^8.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^4.1.6",
+    "viem": "^2.31.6",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "typescript": "^5.8.3"
+  },
+  "ct3aMetadata": {
+    "initVersion": "7.19.0"
+  }
+}
