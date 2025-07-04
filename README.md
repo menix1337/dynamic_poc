@@ -30,8 +30,4 @@ This is a proof of concept implementing Dynamic Labs wallet authentication with 
 
 ## Environment Variables
 
-- `NEXT_PUBLIC_DYNAMIC_ENVIRONMENT_ID`: Your Dynamic Labs environment ID (found in your Dynamic Labs dashboard)
-
-## Security Note
-
-⚠️ **Important**: Never commit your actual environment ID to version control. The `.env.local` file is already in `.gitignore` to prevent accidental commits.
+- `NEXT_PUBLIC_DYNAMIC_ENVIRONMENT_ID`:
